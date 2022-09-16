@@ -1,0 +1,13 @@
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #005238;
+  color: #fff;
+  border-radius: 50%;
+  display: none;
+  z-index: 1;
+}
+#btn-back-to-top:hover {
+  background-color: #127757;
+}

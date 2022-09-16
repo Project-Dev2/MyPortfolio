@@ -1,0 +1,65 @@
+  /* ----- # Start Title # ----- */
+  .main-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    position: relative;
+    margin-bottom: 65px;
+    color: #626262;
+    text-transform: uppercase;
+  }
+  .main-heading::before {
+    content: "";
+    position: absolute;
+    background-color: #005238;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -25px;
+    width: 50px;
+    height: 3px;
+  }
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #005238;
+    color: #fff;
+    border-radius: 50%;
+    display: none;
+    z-index: 1;
+  }
+  #btn-back-to-top:hover {
+    background-color: #127757;
+  }
+  /* ----- # End Title # ----- */
+
+  .portfolio {
+    margin-top: 140px;
+    margin-bottom: 50px;
+  }
+  .portfolio p {
+    font-size: 22px;
+    color: #7e7e7e;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  .portfolio .card {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    transition: transform 0.3s,
+      box-shadow 0.3s;
+  }
+  .articles .box {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.3s,
+      box-shadow 0.3s;
+  }
+  .portfolio .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+  }
