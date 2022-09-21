@@ -122,7 +122,7 @@ class HomeComponent {
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
 HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], hostBindings: function HomeComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("scroll", function HomeComponent_scroll_HostBindingHandler() { return ctx.onWindowScroll(); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
-    } }, decls: 12, vars: 0, consts: [["id", "home", 1, "landing"], [1, "container"], [1, "box"], ["href", "./../../assets/cv/Malek.pdf", "download", "", 1, "main-btn"], ["type", "button", "id", "btn-back-to-top", 1, "btn", "btn-lg", 3, "click"], [1, "bi", "bi-arrow-up"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 12, vars: 0, consts: [["id", "home", 1, "landing"], [1, "container"], [1, "box"], ["href", "assets/cv/Malek.pdf", "download", "", 1, "main-btn"], ["type", "button", "id", "btn-back-to-top", 1, "btn", "btn-lg", 3, "click"], [1, "bi", "bi-arrow-up"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
