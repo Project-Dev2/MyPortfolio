@@ -61,7 +61,7 @@
     transition: 0.3s;
     font-size: 1.5rem;
     transform: translateX(calc(-100% - 5px));
-    z-index: 20;
+    z-index: 1;
   }
   .interests .row .box:hover::before {
     transform: translateX(0);

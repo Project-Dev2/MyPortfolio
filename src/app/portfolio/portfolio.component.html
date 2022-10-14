@@ -1,38 +1,91 @@
-<section class="portfolio" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-    <h2 class="main-heading">Portfolio</h2>
-    <p>Some Works from my portfolio</p>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-lg-4">
-              <a
-                href="https://project-dev2.github.io/ProjectCabinet/"
-                target="_blank">
-                <div class="card mb-4 border-0">
-                  <img src="assets/imgs/portfolio/portfolio01.png" />
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <a
-                href="https://project-dev2.github.io/ProjectSchool/"
-                target="_blank">
-                <div class="card mb-4 border-0">
-                  <img src="assets/imgs/portfolio/portfolio02.png" />
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <a
-                href="https://project-dev2.github.io/ProjectPara/"
-                target="_blank">
-                <div class="card mb-4 border-0">
-                  <img src="assets/imgs/portfolio/portfolio03.png" />
-                </div>
-              </a>
-            </div>
+<div class="portfolio">
+  <h1 class="main-heading">My Works</h1>
+  <p>Some Works from my portfolio</p>
+</div>
+
+<section>
+  <div class="container filter">
+    <input type="radio" id="all" name="project">
+    <label for="all">All</label>
+    <input type="radio" id="recent" name="project">
+    <label for="recent">Recent</label>
+
+    <div class="row work recent mb-5 align-items-center justify-content-center" 
+         data-aos="fade-up" 
+         data-aos-duration="1000" 
+         data-aos-once="true">
+        <div class="col-md">
+          <img src="assets/imgs/portfolio/portfolio02.png" />
+        </div>
+
+        <div class="col-md py-4 school">
+          <h2 class="mb-5">Carthage School</h2>
+          <p>html5 / css3 / bootstrap / angular10</p>
+          <a href="https://github.com/Project-Dev2/CarthageSchool" 
+             target="_blank">Code</a> 
+          <a data-bs-toggle="modal" data-bs-target="#school">Demo</a> 
         </div>
     </div>
+
+    <div class="row work old mb-5 align-items-center justify-content-center" 
+         data-aos="fade-up" 
+         data-aos-duration="1000" 
+         data-aos-once="true">
+        <div class="col-md">
+          <img src="assets/imgs/portfolio/portfolio01.png" />
+        </div>
+
+        <div class="col-md py-4 school">
+          <h2 class="mb-5">DermaMed</h2>
+          <p>html5 / css3 / bootstrap / javascript</p>
+          <a href="https://github.com/Project-Dev2/ProjectCabinet"
+             target="_blank">Code
+          </a> 
+          <a href="https://project-dev2.github.io/ProjectCabinet/"
+             target="_blank">Demo
+          </a> 
+        </div>
+    </div>
+
+    <div class="row work old mb-5 align-items-center justify-content-center" 
+         data-aos="fade-up" 
+         data-aos-duration="1000" 
+         data-aos-once="true">
+        <div class="col-md">
+          <img src="assets/imgs/portfolio/portfolio03.png" />
+        </div>
+
+        <div class="col-md py-4 school">
+          <h2 class="mb-5">Para Shop</h2>
+          <p>html5 / css3 / bootstrap / javascript</p>
+          <a href="https://github.com/Project-Dev2/ProjectPara"
+             target="_blank">Code
+          </a> 
+          <a href="https://project-dev2.github.io/ProjectPara/"
+             target="_blank">Demo
+          </a> 
+        </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="school"
+      tabindex="-1"
+      aria-labelledby="schoolLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <video controls>
+            <source src="assets/vds/school.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
+
+
 <button (click)="topFunction()" type="button" class="btn btn-lg" id="btn-back-to-top">
     <i class="bi bi-arrow-up"></i>
 </button>

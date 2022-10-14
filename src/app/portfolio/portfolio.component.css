@@ -33,33 +33,93 @@
   }
   /* ----- # End Title # ----- */
 
-  .portfolio {
-    margin-top: 140px;
-    margin-bottom: 50px;
-  }
-  .portfolio p {
+  .portfolio p{
     font-size: 22px;
     color: #7e7e7e;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .portfolio {
+    margin-top: 140px;
+  }
+  .work {
+    box-shadow: 0 3px 14px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .school,
+  .shop,
+  .med {
+    text-align: center;
+  }
+  section p {    
+    font-size: 14px;
+    color: #626262;
     margin-bottom: 25px;
   }
-  .portfolio .card {
-    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
-    overflow: hidden;
-    transition: transform 0.3s,
-      box-shadow 0.3s;
+  section a{
+    margin-right: 10px;
+    border: 1px solid #626262;
+    border-radius: 8px;
+    padding: 5px 9px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #626262;
+    text-decoration: none;
+    
   }
-  .articles .box {
-    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
-    background-color: white;
-    border-radius: 6px;
-    overflow: hidden;
-    transition: transform 0.3s,
-      box-shadow 0.3s;
+  .modal {
+    padding-top: 150px;
   }
-  .portfolio .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+  .school a:hover {
+    background-color: #3cb371;
+    border: 1px solid #3cb371;
+    color: #fff;
+  }
+  .med a:hover {
+    background-color: #20b2aa;
+    border: 1px solid #20b2aa;
+    color: #fff;
+  }
+  .shop a:hover {
+    background-color: #60c7c1;
+    border: 1px solid #60c7c1;
+    color: #fff;
+  }
+  img {
+    border-radius: 8px;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  .filter {
+    text-align: center;
+  }
+  label {
+    border: 2px solid #20b2aa;
+    text-transform: uppercase;
+    text-align: center;
+    color: #20b2aa;
+    cursor: pointer;
+    margin: 15px 10px;
+    padding: 5px 15px;
+    font-weight: 500;
+    border-radius: 8px;
+  }
+  input[type="radio"][id="recent"]:checked + label,
+  input[type="radio"][id="recent"]:hover + label,
+  input[type="radio"][id="all"]:checked + label,
+  input[type="radio"][id="all"]:hover + label {
+    background: #20b2aa;
+    color: #fff;
+  }
+  input[type="radio"][id="recent"]:checked ~ .old {
+    display: none;
   }

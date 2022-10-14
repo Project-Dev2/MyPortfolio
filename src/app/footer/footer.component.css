@@ -39,6 +39,12 @@
   .footer .social .linkedin:hover {
     background-color: #2197d6;
   }
+  .footer .social .github {
+    background-color: #3f3e3e;
+  }
+  .footer .social .github:hover {
+    background-color: #6e6a6a;
+  }
   .footer .copyright {
     color: #626262;
     font-weight: 400;
